@@ -1,0 +1,39 @@
+{
+  "name": "project-cis_4339_project_38",
+  "version": "1.0.0",
+  "description": "Group 38 assigned a project to create an application for Restoring Justice with features: implementation of intake form for collection of data, track referrals, summary reports, and more.",
+  "author": "Christopher Ayala, Vincent Vu, & Mario Hayden",
+  "scripts": {
+    "dev": "concurrently \"cd Back-end && npm run dev\" \"cd Front-end && npm run serve\""
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.17.3",
+    "chart.js": "^3.6.0",
+    "moment": "^2.29.1",
+    "mutationobserver-shim": "^0.3.7",
+    "nodemon": "^2.0.15",
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "vue-axios": "^3.4.0",
+    "vue-chartkick": "^1.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "vue-cli-plugin-bootstrap-vue": "~0.8.2"
+  },
+  "bugs": {
+    "url": "https://github.com/CIS-FA21/project-cis_4339_project_38/issues"
+  },
+  "homepage": "https://github.com/CIS-FA21/project-cis_4339_project_38#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CIS-FA21/project-cis_4339_project_38.git"
+  }
+}
